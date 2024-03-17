@@ -143,5 +143,6 @@ for i = 1:2:fl
     end
 end
 t = ['z = f(w) = -0.25w^2/(k^2x_0)']; 
-text(-10.5,24,t,'HorizontalAlignment','left','Color','k','fontsize',20)
+text(-10.5,24,t,'HorizontalAlignment','left','Color','k','fontsize',20);
+axis equal; grid on; grid minor;
 %=========================================================================
