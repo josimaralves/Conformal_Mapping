@@ -189,5 +189,6 @@ t3 = ['z = s\surd {(t^2-1)}; '];
 t4 = ['t = 0.5(1-t_B)cos(\piw/kh)+0.5(1+t_B); ']; 
 t5 = ['t_B = -\surd ((b/s)^2+1)']; 
 text(A(1),1.2*min(min(imag(zy))),[t3 t4 t5],'HorizontalAlignment',...
-    'left','Color','k','fontsize',18)
+    'left','Color','k','fontsize',18);
+axis equal; grid on; grid minor;
 %=========================================================================
