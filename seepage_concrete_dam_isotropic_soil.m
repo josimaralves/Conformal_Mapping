@@ -168,5 +168,6 @@ for i = 1:2:fl
 end
 t = ['z = f(w) = b_1cos(\piw/kh)'];
 text(-0.65*b1,1.2*a1,t,'HorizontalAlignment','left',...
-    'Color','k','fontsize',20)
+    'Color','k','fontsize',20);
+axis equal; grid on; grid minor;
 %=========================================================================
